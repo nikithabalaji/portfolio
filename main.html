@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Nikitha Balaji</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+    </div>
+    <h2>Navigation</h2>
+    <ul class="nav">
+      <li><a href="about_me.html">About Me</a></li>
+      <li class="active">Projects</li>
+      <li><a href="Resume.html">Resume</a></li>
+      <li><a href="contact_me.html">Contact Me</a></li>
+    </ul>
+    <div class="user">
+      <span class="user-icon">N</span>
+      Nikitha Balaji
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+  <main id="mainContent">
+    <h1>Projects</h1>
+    <div class="collections">
+      <div class="collection-group">
+        <hr class="collections-divider">
+        <div class="collection-label">PRACTICUM</div>
+        <div class="collection-name">Meijer</div>
+        <div class="collection">
+          <img src="images/meijer.jpeg" alt="Meijer" />
+        </div>
+      </div>
+      <div class="collection-group">
+        <hr class="collections-divider">
+        <div class="collection-label">PRODUCT</div>
+        <div class="collection-name">Job Clustering</div>
+        <div class="collection">
+          <img src="images/job clustering.png" alt="Short Stories" />
+        </div>
+      </div>
+      <button class="sections-btn">Sections ▼</button>
+    </div>
+    <div class="section-title">Quantitative Modelling and Machine Learning <span>&gt;</span></div>
+    <div class="shelf-carousel">
+      <button class="shelf-scroll-btn" id="scrollLeftBtn1">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 8L8 32L24 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="shelf-row left-align" id="shelfRow1">
+        <div class="book-cover gold" id="projectBook" style="background-image: url('images/march-madness.png'); background-size: cover;">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>March Madness Predictor</div>
+          </div>
+        </div>
+        <div class="book-cover blue" style="background-image: url('images/pawpularity.png'); background-size: cover;" onclick="window.open('https://github.com/nikithabalaji/Pawpularity')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Pawpularity Prediction</div>
+          </div>
+        </div>
+        <div class="book-cover brown" style="background-image: url('images/image-classification.png'); background-size: cover;" onclick="window.open('https://github.com/nikithabalaji/image-classification')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Image Classification</div>
+          </div>
+        </div>
+        <div class="book-cover orange" style="background-image: url('images/bankruptcy.png'); background-size: cover;">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Bankruptcy Prediction</div>
+          </div>
+        </div>
+      </div>
+      <button class="shelf-scroll-btn" id="scrollRightBtn1">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 8L24 32L8 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="section-title">Analytics and Data Science<span>&gt;</span></div>
+    <div class="shelf-carousel">
+      <button class="shelf-scroll-btn" id="scrollLeftBtn2">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 8L8 32L24 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="shelf-row left-align" id="shelfRow2">
+        <div class="book-cover gray" style="background-image: url('images/shiny.png'); background-size: cover;" onclick="window.open('https://github.com/nikithabalaji/ShinyApp')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>ShinyApp</div>
+          </div>
+        </div>
+        <div class="book-cover green" style="background-image: url('images/advertising.png'); background-size: cover;" onclick="window.open('https://github.com/nikithabalaji/Enhancing-Advertising-Precision')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Enhancing Advertising Precision</div>
+          </div>
+        </div>
+        <div class="book-cover green" style="background-image: url('images/cereal.png'); background-size: cover;" onclick="window.open('https://github.com/nikithabalaji/Cereal-Analysis')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Cereal Analysis</div>
+          </div>
+        </div>
+      </div>
+      <button class="shelf-scroll-btn" id="scrollRightBtn2">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 8L24 32L8 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="section-title">Miscellaneous<span>&gt;</span></div>
+    <div class="shelf-carousel">
+      <button class="shelf-scroll-btn" id="scrollLeftBtn3">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 8L8 32L24 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="shelf-row left-align" id="shelfRow3" style="padding-bottom: 100px;">
+        <div class="book-cover" style="background-image: url('images/fleur.png'); background-size: cover; background-size: contain; background-repeat: no-repeat; background-position: center 30px;" onclick="window.open('https://github.com/nikithabalaji/Fleur-de-Lis-2')">
+          <div class="spine"></div>
+          <div class="book-content">
+            <div>Fleur de Lis</div>
+          </div>
+        </div>
+      </div>
+      <button class="shelf-scroll-btn" id="scrollRightBtn3">
+        <svg width="32" height="64" viewBox="0 0 32 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 8L24 32L8 56" stroke="#888" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="project-panel" id="projectPanel">
+      <div class="project-header">
+        <img src="images/march-madness.png" alt="Project Cover" />
+        <div class="project-meta">
+          <h2>March Madness Bracket Predictor</h2>
+          <p>Predictive Modeling · Python · Scikit-learn</p>
+          <button onclick="window.open('https://github.com/nikithabalaji/March-Madness-Prediction')">View Code</button>
+        </div>
+      </div>
+      <div class="project-description">
+        <h3>Description</h3>
+        <p>This predictive analytics project uses historical NCAA data and machine learning to simulate March Madness outcomes.</p>
+      </div>
+      <div class="project-feedback">
+        <h3>Notes</h3>
+        <p></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function setupCarouselArrows(rowId, leftBtnId, rightBtnId) {
+      const shelfRow = document.getElementById(rowId);
+      const scrollBtnRight = document.getElementById(rightBtnId);
+      const scrollBtnLeft = document.getElementById(leftBtnId);
+
+      function updateArrowVisibility() {
+        if (shelfRow.scrollWidth - shelfRow.scrollLeft <= shelfRow.clientWidth + 2) {
+          scrollBtnRight.classList.add('inactive');
+        } else {
+          scrollBtnRight.classList.remove('inactive');
+        }
+        if (shelfRow.scrollLeft <= 2) {
+          scrollBtnLeft.classList.add('inactive');
+        } else {
+          scrollBtnLeft.classList.remove('inactive');
+        }
+      }
+
+      scrollBtnRight.onclick = function() {
+        shelfRow.scrollBy({ left: 240, behavior: 'smooth' });
+      };
+      scrollBtnLeft.onclick = function() {
+        shelfRow.scrollBy({ left: -240, behavior: 'smooth' });
+      };
+
+      shelfRow.addEventListener('scroll', updateArrowVisibility);
+      window.addEventListener('resize', updateArrowVisibility);
+      updateArrowVisibility();
+    }
+
+    setupCarouselArrows('shelfRow1', 'scrollLeftBtn1', 'scrollRightBtn1');
+    setupCarouselArrows('shelfRow2', 'scrollLeftBtn2', 'scrollRightBtn2');
+    setupCarouselArrows('shelfRow3', 'scrollLeftBtn3', 'scrollRightBtn3');
+  </script>
+  <script>
+    const book = document.getElementById('projectBook');
+    const panel = document.getElementById('projectPanel');
+    const overlay = document.getElementById('overlay');
+    const main = document.getElementById('mainContent');
+
+    book.addEventListener('click', () => {
+      panel.classList.add('active');
+      overlay.classList.add('active');
+      main.classList.add('blurred');
+    });
+
+    overlay.addEventListener('click', () => {
+      panel.classList.remove('active');
+      overlay.classList.remove('active');
+      main.classList.remove('blurred');
+    });
+  </script>
+</body>
+</html>

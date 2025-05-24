@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me - Nikitha Balaji</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+    </div>
+    <h2>Navigation</h2>
+    <ul class="nav">
+      <li><a href="about_me.html">About Me</a></li>
+      <li><a href="main.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li class="active">Contact Me</li>
+    </ul>
+    <div class="user">
+      <span class="user-icon">N</span>
+      Nikitha Balaji
+    </div>
+  </aside>
+  <main>
+    <h1>Contact Me</h1>
+    <form class="contact-form" action="balajinikitha@gmail.com?subject=Contact from Website&body=Hello Nikitha," method="POST" enctype="text/plain">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/nikitha-balaji" target="_blank" rel="noopener" class="contact-icon">LinkedIn</a>
+      <a href="mailto:balajinikitha@gmail.com" class="contact-icon">Email</a>
+      <a href="https://github.com/nikithabalaji" target="_blank" rel="noopener" class="contact-icon">GitHub</a>
+    </div>
+  </main>
+</body>
+</html>
